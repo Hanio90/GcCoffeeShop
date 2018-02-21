@@ -1,0 +1,6 @@
+﻿body {
+    background-image: url(../Images/coffee.jpg);
+    background-size: 800px;
+    background-size: cover;
+    font-family:Cambria; color:black;
+}

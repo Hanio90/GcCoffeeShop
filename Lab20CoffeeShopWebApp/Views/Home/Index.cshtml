@@ -1,7 +1,46 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    
 }
-<link href="StyleSheet1.css" rel="stylesheet"  />
-<h1 style="font-family: Cambria; font-size:200%;">   Grand Circus Coffee Shop</h1><br /><br />
-<a href="/Home/Register" style="font-family: Cambria; font-size:120%; color:black; border: hidden;">>> Register Here << </a>
+@model Lab20CoffeeShopWebApp.Models.ItemList
 
+
+<head>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+   
+
+</head>
+<h1 style="font-family: Cambria; font-size:200%;">     Grand Circus Coffee Shop  </h1>
+<br />
+<br />
+@*<a href="/Home/Register" style="font-family: Cambria; font-size:120%; color:black; border: hidden;">>> Register Here << </a>*@
+<a href="/Home/Register" class="btn btn-info"  role="button">   Register Here  </a>
+
+<body>
+
+
+
+    <div class="container">
+        <!--Row with three equal columns-->
+        <div class="row" style="color:white">
+
+            @foreach (var item in Model.ItemsList)
+            {
+
+                <div class="col-xs-4" style="text-align:center; vertical-align:middle; font-size:xx-small" >
+                    <div  style="background:rgba(0,0,0,0.4) ; background-size:50% ">
+                        <h2 style="font-size:200%">@item.Name</h2>
+                        <h2 style="font-size:200%">@item.Description</h2>
+                        <h2 style="font-size:200%">@item.Price</h2>
+                    </div>
+                </div>
+
+            }
+
+
+
+        </div>
+    </div>
+  
+</body>

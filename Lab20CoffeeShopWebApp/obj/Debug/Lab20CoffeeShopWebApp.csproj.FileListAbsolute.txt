@@ -40,3 +40,7 @@ c:\users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\obj\Debu
 c:\users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\obj\Debug\Lab20CoffeeShopWebApp.csproj.CoreCompileInputs.cache
 c:\users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\obj\Debug\Lab20CoffeeShopWebApp.dll
 c:\users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\obj\Debug\Lab20CoffeeShopWebApp.pdb
+C:\Users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\bin\EntityFramework.dll
+C:\Users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\bin\EntityFramework.xml
+C:\Users\hanio\source\repos\Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp\bin\EntityFramework.SqlServer.xml

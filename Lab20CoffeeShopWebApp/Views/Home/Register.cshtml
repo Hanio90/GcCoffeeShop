@@ -3,16 +3,24 @@
     ViewBag.Title = "Register";
 }
 
-<h2>Please Register to Grand Circus Coffe Shop</h2>
+@model Lab20CoffeeShopWebApp.Models.User
+
+<h2>Please Register to Grand Circus Coffee Shop</h2>
+
 <link href="~/StyleSheet3.css" rel="stylesheet" />
 <br />
 <br />
-<form action="/Home/WelcomeUser" method="post" id="RegisterUser" >
+<form action="/Home/WelcomeUser" method="post" >
     First Name <br /> <input type="text" name="FirstName" placeholder="First Name" pattern="(^[a-zA-Z]{2,30}$)" required /><br /><br />
+
     Last Name<br />  <input type="text" name="LastName" placeholder="Last Name" pattern="(^[a-zA-Z]{2,30}$)" required/><br /><br />
-    Email <br /> <input type="text" name="Email" placeholder="Email Address " id="Email" pattern="(\w+([\.]?\w+)\u0040\w+([\.]?\w+)*(\.\w{2,3}))" required /> <br /><br />
-    Phone Number<br /><input type="number" name="PhoneNumber" placeholder="Phone#" pattern="(^[0-9]{10,11}$)"  /><br /><br />
+
+    Email <br /> <input type="text" name="Email" placeholder="JohnDoe@JohnDoe.com " id="Email" pattern="(\w+([\.]?\w+)\u0040\w+([\.]?\w+)*(\.\w{2,3}))" required /> <br /><br />
+
+    Phone Number<br /><input type="number" name="PhoneNumber" placeholder="Phone#" pattern="([0-9]{10,11}$)" required /><br /><br />
+
     Password <br /> <input type="password" name="Password" placeholder="Password" min="8" maxlength="30" required/><br /><br />
+
     <input type="submit" name="Click To Register " value="Submit " />
 </form>
 

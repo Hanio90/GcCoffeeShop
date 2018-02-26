@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab20CoffeeShopWebApp", "Lab20CoffeeShopWebApp\Lab20CoffeeShopWebApp.csproj", "{850CD598-C3FE-4ACD-8404-ACB0AC63AF81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEntityFramework1", "..\testEntityFramework1\testEntityFramework1\testEntityFramework1.csproj", "{F7893393-A231-4951-A52A-4A2B7F0B3224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,15 @@ Global
 		{850CD598-C3FE-4ACD-8404-ACB0AC63AF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850CD598-C3FE-4ACD-8404-ACB0AC63AF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850CD598-C3FE-4ACD-8404-ACB0AC63AF81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7893393-A231-4951-A52A-4A2B7F0B3224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7893393-A231-4951-A52A-4A2B7F0B3224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7893393-A231-4951-A52A-4A2B7F0B3224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7893393-A231-4951-A52A-4A2B7F0B3224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4EAE2A98-B34C-47D8-B5E2-D2FC786140CC}
+		SolutionGuid = {EAF65CA4-A641-4FBB-B195-1DD946517198}
 	EndGlobalSection
 EndGlobal
